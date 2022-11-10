@@ -1,5 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');    /*400,700*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');           /*400*/
+
+:root {
+     --very-dark-blue: hsl(233, 47%, 7%);                     /* (main background) */
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);               /* (card background)*/
+    --Soft-violet: hsl(277, 64%, 61%);                         /* (accent)*/
+    --White: hsl(0, 0%, 100%);                                 /* (main heading, stats)*/
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);      /*(main paragraph)*/
+    --Slightly-transparent-white-2: hsla(0, 0%, 100%, 0.6);     /*(stat headings)*/
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 15px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;  
+    height: 420px;
+    background-color: rgb(146, 145, 145);
+    display: flex;
+}
+
+.content {
+    width: 50%;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.desk-img {
+    width: 100%;
+    height: 100%;
+
 }
