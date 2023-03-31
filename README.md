@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Fron End Mentor solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-css-whLxgBqcbg)
-- [Live site](https://agusscript.github.io/Stats-preview-card-component/)
+- [Live site](https://codepen.io/agusscript/pen/XWPwBbO)
 
 ## My process
 
